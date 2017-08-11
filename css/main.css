@@ -13,7 +13,7 @@ body {
   border: none;
   width: 162px;
   height: 9px;
-  background-image: url("stylings/sectionbreak.png");
+  background-image: url("http://codifyacademy.com/week2/intermediate/img/sectionbreak.png");
   background-repeat: no-repeat; }
 
 /* line 16, main.scss */
@@ -82,7 +82,7 @@ body {
 /* line 66, main.scss */
 .section-claim {
   padding: 12% 0 5%;
-  background: url(headerbg.png);
+  background: url("http://codifyacademy.com/week2/intermediate/img/headerbg.png");
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -108,7 +108,7 @@ body {
     border: none;
     width: 108px;
     height: 25px;
-    background-image: url("stylings/break.png");
+    background-image: url("http://codifyacademy.com/week2/intermediate/img/break.png");
     background-repeat: no-repeat; }
 
 /* line 97, main.scss */
