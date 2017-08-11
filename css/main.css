@@ -1,0 +1,324 @@
+/* line 3, main.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 4, main.scss */
+body {
+  font-family: "Open sans", sans-serif; }
+
+/* line 7, main.scss */
+.separator {
+  margin: 1.5% auto;
+  border: none;
+  width: 162px;
+  height: 9px;
+  background-image: url("stylings/sectionbreak.png");
+  background-repeat: no-repeat; }
+
+/* line 16, main.scss */
+.header {
+  background: #02908B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 27px;
+  position: fixed;
+  width: 100%;
+  z-index: 2; }
+  /* line 25, main.scss */
+  .header .header__logo {
+    font-weight: 700;
+    font-size: 26px; }
+    /* line 28, main.scss */
+    .header .header__logo .header__logo-link {
+      color: #cfc91d;
+      text-decoration: none;
+      display: block;
+      height: 57px;
+      width: 100%;
+      padding: 0 5%;
+      line-height: 57px; }
+      /* line 36, main.scss */
+      .header .header__logo .header__logo-link .header__logo-link-white {
+        color: #fff; }
+  /* line 41, main.scss */
+  .header .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-preferred-size: 400px;
+        flex-basis: 400px;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 7%; }
+    /* line 49, main.scss */
+    .header .header__nav .header__nav-item .header__nav-item--link {
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      padding: 0 5%;
+      line-height: 57px;
+      color: #fff;
+      -webkit-transition: color .4s;
+      transition: color .4s; }
+      /* line 57, main.scss */
+      .header .header__nav .header__nav-item .header__nav-item--link:hover {
+        color: #cfc91d;
+        -webkit-transition: color .4s;
+        transition: color .4s; }
+
+/* line 66, main.scss */
+.section-claim {
+  padding: 12% 0 5%;
+  background: url(headerbg.png);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff; }
+  /* line 74, main.scss */
+  .section-claim .claim__subtitle {
+    margin: 1% 0;
+    font-weight: bold;
+    font-size: 36px; }
+  /* line 79, main.scss */
+  .section-claim .claim__title {
+    margin: 1% 0;
+    font-size: 72px;
+    letter-spacing: 20px;
+    font-weight: bold; }
+  /* line 85, main.scss */
+  .section-claim .claim__paragraph {
+    margin: 1% 0; }
+  /* line 88, main.scss */
+  .section-claim .claim__separator {
+    margin: 3% auto;
+    border: none;
+    width: 108px;
+    height: 25px;
+    background-image: url("stylings/break.png");
+    background-repeat: no-repeat; }
+
+/* line 97, main.scss */
+.claim__button {
+  margin: 2% auto;
+  display: block;
+  width: 140px;
+  background-color: #CDC71D;
+  color: #0B1016;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  /* line 108, main.scss */
+  .claim__button:hover {
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+
+/* line 116, main.scss */
+.section__about-me {
+  text-align: center;
+  padding: 3% 0; }
+  /* line 119, main.scss */
+  .section__about-me .section__title--green {
+    color: #02918c;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 1% auto; }
+  /* line 125, main.scss */
+  .section__about-me .about-me__paragraph {
+    max-width: 70%;
+    margin: 0 auto;
+    color: #7e8287;
+    line-height: 41px; }
+    /* line 130, main.scss */
+    .section__about-me .about-me__paragraph span {
+      font-size: 23px;
+      font-weight: bold; }
+
+/* line 137, main.scss */
+.section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 70%;
+  margin: 10px auto;
+  text-align: center; }
+  /* line 143, main.scss */
+  .section__container .section__container-box {
+    text-align: center;
+    border-right: 1px solid black; }
+    /* line 146, main.scss */
+    .section__container .section__container-box:last-child {
+      border-right: 1px solid transparent; }
+    /* line 149, main.scss */
+    .section__container .section__container-box .section__container-box--icon {
+      font-size: 28px;
+      color: #02918c; }
+    /* line 153, main.scss */
+    .section__container .section__container-box .section__container-box--title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #7e8287;
+      margin: 10px 0; }
+    /* line 159, main.scss */
+    .section__container .section__container-box .section__container-box--paragraph {
+      color: #7e8287;
+      font-weight: bold;
+      max-width: 70%;
+      margin: 20px auto;
+      font-size: 11px;
+      line-height: 12px; }
+
+/* line 171, main.scss */
+.section__services {
+  background-image: url(stylings/service.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%; }
+  /* line 176, main.scss */
+  .section__services .services__content {
+    max-width: 1000px;
+    padding: 1% 0 1% 12%;
+    background-color: #f0f0e8; }
+
+/* line 183, main.scss */
+.services__content--top .section__services--green {
+  color: #02918c;
+  font-size: 46px;
+  font-weight: bold;
+  margin: 2% auto; }
+/* line 188, main.scss */
+.services__content--top .separator {
+  margin: 2.5% 0 2.5% 2%; }
+/* line 189, main.scss */
+.services__content--top .services__paragraph {
+  max-width: 90%;
+  color: #7e8287;
+  line-height: 41px; }
+
+/* line 195, main.scss */
+.services__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 3% 0; }
+  /* line 199, main.scss */
+  .services__container .services__container-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 50%;
+    text-align: left; }
+    /* line 204, main.scss */
+    .services__container .services__container-box .services__container-box--icon {
+      display: block;
+      width: 100%;
+      font-size: 28px;
+      color: #02918c; }
+    /* line 210, main.scss */
+    .services__container .services__container-box .services__container-box--title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #7e8287;
+      margin: 10px 0; }
+    /* line 216, main.scss */
+    .services__container .services__container-box .services__container-box--paragraph {
+      color: #7e8287;
+      font-weight: bold;
+      max-width: 70%;
+      margin: 20px 0;
+      font-size: 11px;
+      line-height: 12px; }
+
+/* line 228, main.scss */
+.section__contact-me {
+  text-align: center;
+  padding: 3% 0 0; }
+  /* line 231, main.scss */
+  .section__contact-me .section__contact-me--green {
+    color: #02918c;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 1% auto; }
+  /* line 237, main.scss */
+  .section__contact-me .contact-me__paragraph {
+    max-width: 70%;
+    margin: 0 auto;
+    color: #7e8287;
+    line-height: 41px; }
+    /* line 242, main.scss */
+    .section__contact-me .contact-me__paragraph span {
+      font-size: 23px;
+      font-weight: bold; }
+
+/* line 249, main.scss */
+.contact-form {
+  background: #0B0B0B;
+  color: #7D8186;
+  padding-bottom: 15px; }
+  /* line 253, main.scss */
+  .contact-form .contact-form__lavel {
+    display: block;
+    width: 70%;
+    padding-top: 15px;
+    margin: 15px auto 0; }
+  /* line 259, main.scss */
+  .contact-form .contact-form__field {
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #7D8186;
+    outline: none;
+    text-align: center;
+    background: transparent;
+    font-size: 24px;
+    height: 30px;
+    color: #7D8186; }
+  /* line 273, main.scss */
+  .contact-form .contact-form__message {
+    display: block;
+    width: 70%;
+    height: 80px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #7D8186;
+    outline: none;
+    text-align: center;
+    background: transparent;
+    color: #7D8186;
+    font-size: 24px; }
+
+/* line 288, main.scss */
+.footer {
+  height: 58px;
+  background: #000;
+  line-height: 58px;
+  color: #7e8287;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
